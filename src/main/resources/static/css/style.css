@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-size: 2vh;
 }
 /* Contenedor Principal */
 #contenedor {
@@ -14,5 +15,21 @@
 	margin: 0.5vw auto;
 	border: black 0.2vw solid;
 	width: 50vw;
-	height: 80vh; 
+	height: 95vh; 
+	background: red;
+}
+#contenedor .maquina .cristal {
+	margin: 0.5vw auto;
+	border: black 0.2vw solid;
+	width: 40vw;
+	height: 60vh; 
+	background: gray;
+}
+#contenedor .maquina .cristal .fila {
+	width: 39.7vw;
+	height: 11.88vh;
+	margin 0 auto;
+	display: grid;
+	place-content:center;
+	border-bottom: black 2vw solid;
 }

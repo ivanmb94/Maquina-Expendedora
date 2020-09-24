@@ -33,3 +33,20 @@
 	place-content:center;
 	border-bottom: black 2vw solid;
 }
+
+/* i came in like a wrecking ball */
+
+.environment {
+	width: 100%;
+	max-width: 100%;
+	height: 100vh;
+	background-color: lightblue;
+}
+
+.ground {
+	height: 30%;
+	position: relative;
+	bottom: 0;
+}
+
+/* cya nerd */

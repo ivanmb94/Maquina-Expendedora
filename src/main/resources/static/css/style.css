@@ -28,7 +28,7 @@
 #contenedor .maquina .cristal .fila {
 	width: 39.7vw;
 	height: 11.88vh;
-	margin 0 auto;
+	margin: 0 auto;
 	display: grid;
 	place-content:center;
 	border-bottom: black 2vw solid;
